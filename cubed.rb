@@ -9,11 +9,11 @@ def tail_cubed(int, sum)
   end
 end
 
-def starter(int)
+def wrapper(int)
   tail_cubed(int, 0)
 end
 
-puts starter(4)
+puts wrapper(4)
 
 
 
