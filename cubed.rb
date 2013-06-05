@@ -15,13 +15,14 @@ end
 
 puts starter(4)
 
+
+
 def cubed(int)
-  sum = 0
   if int < 1
-    return sum
+    return 0
   else
-    sum = int**3 + cubed(int - 1)
+    return int**3 + cubed(int - 1)
   end
 end
 
-puts cubed(3)
+puts cubed(2)
