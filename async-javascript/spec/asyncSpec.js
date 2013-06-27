@@ -2,10 +2,8 @@ describe('balblaba', function() {
   it('should wait', function() {
     $('button').trigger('click');
     waitsFor(function() {
-      var actual = $('.changer').css('background-color');
-      var expected = 'green';
-      return actual == expected
-    }, "The div turned green", 150);
+      return $('.box').hasClass('bg-green');
+    }, "the div to turn green", 2000);
 
     // runs(function( {
 
