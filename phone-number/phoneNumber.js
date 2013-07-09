@@ -21,11 +21,23 @@ var verifyLength = function(string) {
   }
 };
 
-var areaCode = function() {
+var areaCode = function(string) {
+  var area = string.substring(0, 3);
+  return area;
+};
+
+var toString = function(string) {
+  section1 = string.substring(0, 3);
+  section2 = string.substring(3, 6);
+  section3 = string.substring(6, 10);
+
+  return "(" + section1 + ") " + section2 + "-" + section3;
 
 };
 
 var abc = "(999)666-6666";
 var cde = "12345678901";
+var zxc = "23409213412094720943";
+var yyy = "3428201484";
 
-console.log(verifyLength(cde));
+console.log(toString(yyy));
