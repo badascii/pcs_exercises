@@ -9,3 +9,7 @@ var changer = function() {
     }, 1000);
   });
 };
+
+var twitterJax = function() {
+  $.getJSON()
+}

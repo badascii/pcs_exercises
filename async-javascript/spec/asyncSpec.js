@@ -5,8 +5,6 @@ describe('balblaba', function() {
       return $('.box').hasClass('bg-green');
     }, "the div to turn green", 2000);
 
-    // runs(function( {
 
-    // })
   });
 });
