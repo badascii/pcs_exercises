@@ -16,7 +16,9 @@ I'm not going to talk about lipids because they're crazy complex.
 
 So back to DNA.
 
-Write a class `DNA` that takes a DNA string. It should have two ways of telling us how many times each nucleotide occurs in the string: `#count(nucleotide)` and `#nucleotide_count`.
+Write a class `DNA` that takes a DNA string. It should have two ways of telling
+us how many times each nucleotide occurs in the string: `#count(nucleotide)` and
+`#nucleotide_count`.
 
 ```ruby
 dna = DNA.new("ATGCTTCAGAAAGGTCTTACG")
